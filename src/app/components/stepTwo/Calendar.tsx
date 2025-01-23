@@ -28,7 +28,7 @@ function ServerDay(props: SlotProps) {
         >
             <PickersDay
                 sx={{
-                    backgroundColor: isFirst ? "rgba(21, 101, 192, .6)" : isHighLighted ? "rgba(21, 101, 192, .4)" : "white",
+                    backgroundColor: isFirst ? "rgba(149, 192, 222, .6)" : isHighLighted ? "rgba(25, 29, 83, .4)" : "white",
                     border: 'none'
                 }}
                 outsideCurrentMonth={outsideCurrentMonth}

@@ -28,9 +28,9 @@ export function PaymentMethod() {
     const patientData = usePatientContext()
 
     const menuList = (theme: Theme) => ({
-        backgroundColor: 'rgba(36, 142, 194, 0.2)',
+        backgroundColor: 'rgba(25, 29, 83, 0.2)',
         color: 'rgb(32, 54, 95)',
-        border: 'solid, 3px, rgba(32, 54, 95, 0.6)',
+        border: 'solid, 3px, rgba(25, 29, 83, 0.6)',
         width: 400,
         [theme.breakpoints.down("sm")]: {
             width: "90%"
@@ -57,7 +57,7 @@ export function PaymentMethod() {
                             <MenuItem
                                 sx={{
                                     '&:hover': {
-                                        backgroundColor: 'rgba(36, 142, 194, 0.8)',
+                                        backgroundColor: 'rgba(149, 192, 222, 0.8)',
                                         color: 'white',
                                         position: 'relative'
                                     },
