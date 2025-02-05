@@ -9,6 +9,7 @@ import { LocalizationProvider } from "@mui/x-date-pickers";
 import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
 
 export default function Home() {
+
   const info = useDataContext()
   const [patientData, setPatientData] = useState<DataType>(null)
   const mergePatientData = (patientData: DataType) => {
